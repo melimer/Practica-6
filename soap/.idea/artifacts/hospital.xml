@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="hospital">
+    <output-path>$PROJECT_DIR$/out/artifacts/hospital</output-path>
+    <root id="root" />
+  </artifact>
+</component>
