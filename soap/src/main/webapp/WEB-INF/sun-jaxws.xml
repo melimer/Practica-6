@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="4.0">
-
+<endpoints xmlns='http://jakarta.ee/xml/ns/jax-ws' version='2.0'>
     <endpoint
-            name="MiServicioSoap"
-            implementation="com.miempresa.servicios.CalculadoraSoap"
-            url-pattern="/calculadora" />
+            name="Hospital"
+            implementation="org.example.soap"
+            url-pattern="/hospital" />
 
 </endpoints>
